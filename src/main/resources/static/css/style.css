@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 14pt;
+	font-family: 'Gowun Dodum', sans-serif;
+}
+
+a:link { color:#162361; }
+a:visited { color:black; }
+a:hover { color:red; }
+
+
+#backgd {
+	background-image: url("/image/library_main.jpg");
+	width: 100%;
+	opacity: 0.9;
+}
+
+/* --------------header--------------- */
+#header-top {
+	height: 80px;
+	background: #ad8788;
+}
+
+#title a {
+	color: white;
+	margin-top: 15px;
+	margin-left: 200px;
+	float: left;
+	font-size: 28pt;
+	margin-top: 15px;
+	font-family: 'Chelsea Market', cursive;
+}
+
+#loginBox {
+	text-align: right;
+	margin-right: 200px;
+}
+
+#loginBox a {
+	color: white;
+	line-height: 380%;
+	margin: 30px;
+	font-size: 16pt;
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+#loginBox a:hover {
+	color: #3d3847;
+}
+
+/* --------------navbar--------------- */
+.navbarBox {
+	height: 50px;
+	background: #b7acac;
+	text-align: center;
+}
+
+.navbarInnerBox {
+	display: inline-block;
+}
+
+#navbar li {
+	font-family: 'Nanum Gothic', sans-serif;
+	width: 200px;
+	padding: 10px;
+	font-size: 19pt;
+	float: left;
+}
+
+#navbar li a {
+	color: white;
+}
+
+#sub-navbar li {
+	margin: -12px;
+	margin-top: 11px;
+	float: none;
+	display: none;
+}
+
+#sub-navbar li:hover {
+	transition: 0.6s;
+}
+
+#navbar li:hover #sub-navbar li {
+	background: #857a7a;
+	display: block;
+}
+
+/* --------------추천도서--------------- */
+#bestbooks {
+	margin: auto;
+	text-align: center;
+	background: #d0bdbd;
+	width: 80%;
+	height: auto;
+	margin-top: 130px;
+	border-radius: 20px;
+}
+
+#bestbook {
+	height: 100%;
+	width: 70%;
+	display: inline-block;
+}
+
+#bestbook ul {
+	margin-left: 75px;
+	margin-top: 30px;
+}
+
+#bestbook ul li {
+	float: left;
+	margin-left: 20px;
+	font-size: 25pt;
+}
+
+#bestbook ul li a {
+	color: #423522;
+}
+
+.book {
+	color: black;
+	margin: 80px;
+}
+
+#imgFloat img {
+	transition: 0.6s;
+}
+
+#imgFloat {
+	float: left;
+	margin-right: 30px;
+}
+
+#imgFloat img:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#imgFloat p {
+	color: black;
+	margin: 15px;
+	font-size: 20pt;
+}
+
+.recommbook input {
+	font-size: 12pt;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	height: 30px;
+	width: 100px;
+	border-radius: 10px;
+	border: none;
+	background: #ad8788;
+	color: white;
+	cursor: pointer;
+	transition: 0.6s;
+}
+
+.recommbook input:hover {
+	background: #724e4f;
+}
+
+#recommbook-body {
+	background: white;
+}
+
+.comm {
+	margin-left: 13%;
+}
+
+.table-title th {
+	background: #724e4f;
+	color: white;
+}
+
+.searchBox {
+	text-align: right;
+	margin: 20px;
+	margin-right: 60px;
+}
+
+.searchBox select {
+	width: 80px;
+	height: 30px;
+}
+
+.textBox {
+	width: 250px;
+	height: 25px;
+}
+
+.basicBtn {
+	border: none;
+	width: 80px;
+	height: 28px;
+	border-radius: 10px;
+	cursor: pointer;
+	background: #ad8788;
+	color: white;
+	transition: 0.4s;
+}
+
+.basicBtn:hover {
+	background: #84595a;
+}
+
+.basicBigBtn {
+	font-size: 13pt;
+	border: none;
+	width: 80px;
+	height: 40px;
+	border-radius: 10px;
+	cursor: pointer;
+	background: #ad8788;
+	color: white;
+	transition: 0.4s;
+	border: none;
+}
+
+.basicBigBtn:hover {
+	background: #84595a;
+}
+
+.basicSmallBtn {
+	border: none;
+	width: 60px;
+	height: 26px;
+	border-radius: 10px;
+	cursor: pointer;
+	background: #ad8788;
+	color: white;
+	transition: 0.4s;
+}
+
+.basicSmallBtn:hover {
+	background: #84595a;
+}
+
+.hopebookForm table {
+	text-align: center;
+}
+
+.loginForm table {
+	text-align: center;
+	width: 440px;
+}
+
+.longText {
+	height: 30px;
+	size: 80;
+}
+
+.shortText {
+	height: 30px;
+}
+
+.hopeBox {
+	margin-top: 100px;
+	display: inline-block;
+}
+
+.read-more {
+	text-align: left;
+}
+
+.read-more-image img {
+	float: left;
+	width: 500px;
+	margin: 50px;
+}
+
+.read-more-text {
+	line-height: 2em;
+	margin: 20px;
+}
+
+.read-more-text h1 {
+	line-height: 1em;
+}
+
+.empty {
+	margin-bottom: 20px;
+}
+
+.rental {
+	float: right;
+}
+
+#welcomeId {
+	line-height: 3em;
+	font-size: 12pt;
+}
