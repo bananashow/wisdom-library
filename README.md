@@ -54,5 +54,6 @@
   - 따로 쿼리문을 작성할 xml 파일을 생성하지 않고, 어노테이션으로 데이터베이스에 접근하여 mapper를 구성
 <br /><br />
 
+https://user-images.githubusercontent.com/85798544/254902024-40b69301-6720-4bec-81eb-a8d382737c4d.mp4
 
 
